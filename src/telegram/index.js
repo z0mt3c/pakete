@@ -1,7 +1,8 @@
-// import _ from 'lodash'
-// import assert from 'assert'
-// import moment from 'moment'
-// import TelegramBot from 'node-telegram-bot-api'
+'use strict'
+// const _ = require('lodash')
+// const assert = require('assert')
+// const moment = require('moment')
+// const TelegramBot = require('node-telegram-bot-api')
 
 module.exports.register = function (server, options, next) {
   // TELEGRAM ACTION

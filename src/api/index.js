@@ -1,9 +1,11 @@
-import Joi from 'joi'
-// import Boom from 'boom'
-// import _ from 'lodash'
-// import moment from 'moment'
-// import async from 'async'
-// import xrc from 'x-result-count'
+'use strict'
+
+const Joi = require('joi')
+// const Boom = require('boom')
+// const _ = require('lodash')
+// const moment = require('moment')
+// const async = require('async')
+// const xrc = require('x-result-count')
 
 module.exports.register = function (server, options, next) {
   // var items = server.plugins['hapi-mongodb-profiles'].collection('items')

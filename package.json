@@ -2,10 +2,10 @@
   "name": "pakete",
   "version": "1.0.0",
   "description": "Powered by node, hapi, joi, hapi-swaggered, hapi-swaggered-ui and swagger-ui",
-  "main": "babel.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node babel.js",
-    "nodemon": "nodemon babel.js --ignore 'node_modules/*' --ignore 'src/web/public/**' --ignore 'src/web/src/**'",
+    "start": "node server.js",
+    "nodemon": "nodemon server.js --ignore 'node_modules/*' --ignore 'src/web/public/**' --ignore 'src/web/src/**'",
     "dev": "parallelshell 'npm run-script nodemon'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,6 +21,7 @@
     "babelify": "^7.2.0",
     "bcrypt": "^0.8.5",
     "boom": "^3.0.0",
+    "catbox-redis": "^1.0.6",
     "cron": "^1.1.0",
     "good": "^6.4.0",
     "good-console": "^5.2.0",
@@ -30,6 +31,7 @@
     "hapi-swaggered": "^2.4.1",
     "hapi-swaggered-ui": "^2.1.1",
     "hoek": "^3.0.4",
+    "i18next": "^2.0.10",
     "inert": "^3.2.0",
     "joi": "^7.0.1",
     "lodash": "^3.10.1",
@@ -40,6 +42,7 @@
     "node-telegram-bot-api": "^0.17.0",
     "parallelshell": "^2.0.0",
     "qs": "^6.0.1",
+    "underscore.string": "^3.2.2",
     "vision": "^4.0.1",
     "wreck": "^7.0.0",
     "x-result-count": "^1.0.0"
@@ -47,8 +50,7 @@
   "standard": {
     "parser": "babel-eslint"
   },
-  "devDependencies": {
-  },
+  "devDependencies": {},
   "repository": {
     "type": "git",
     "url": "git+https://z0mt3c@github.com/z0mt3c/pakete.git"
