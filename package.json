@@ -27,6 +27,7 @@
     "good-console": "^5.2.0",
     "h2o2": "^5.0.0",
     "hapi": "^11.1.2",
+    "hapi-auth-bearer-token": "^4.0.0",
     "hapi-mongodb-profiles": "^2.0.1",
     "hapi-swaggered": "^2.4.1",
     "hapi-swaggered-ui": "^2.1.1",
